@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace MInterfaceHierachy
 {
-    class Program
+    //multiple inheritance for interface is okay
+    interface IDrawable
     {
-        static void Main(string[] args)
-        {
-
-        }
+        void Draw();
     }
 }

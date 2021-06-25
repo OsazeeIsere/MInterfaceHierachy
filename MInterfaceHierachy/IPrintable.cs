@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace MInterfaceHierachy
 {
-    class Program
+    interface IPrintable
     {
-        static void Main(string[] args)
-        {
-
-        }
+        void Print();
+        void Draw();//<-- possible name clash
+        
     }
 }

@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace MInterfaceHierachy
 {
-    class Program
+    //multiple interface inheritance.ok! 
+    interface IShape:IDrawable,IPrintable
     {
-        static void Main(string[] args)
-        {
-
-        }
+        int GetNoSides();
     }
 }
